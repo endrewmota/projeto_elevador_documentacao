@@ -1,8 +1,32 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Documentação Projeto Elevador";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>Foi criado um software, com o Visual Studio Community, que tem como </p>
+    <p>função o gerenciamento de um elevador, ele terá as funções de inicializar, entrar, sair, subir e descer.  </p>
+
+    <p>Na classe Program.cs está a estrutura inicial do projeto, onde irá fazer a chamada do input da capacidade do elevador,</p>
+    <p>e a quantidade de andares do prédio, que serão passadas pelo usuário, e a chamada do menu inicial.  </p>
+
+    <p>
+        Na pasta chamada Model fica a classe denominada Elevador para armazenar as informações de um elevador
+        dentro de um prédio,
+    </p>
+    <p>que começa inicialmente com térreo para o andar atual igual a zero e vazio para o número de pessoas igual a zero.  </p>
+
+    <p>
+        Ao escolher a opção 1 do menu, a função entra na classe para entrar uma pessoa no elevador somando o valor atual a 1.
+    </p>
+    <p>
+        A opção 2 entra na classe para sair uma pessoa do elevador, subtraindo 1 do valor atual.
+    </p>
+
+    <p>
+        A opção 3 entra na classe para o elevador subir um degrau, somando 1 ao valor atual.
+    </p>
+    <p>
+        E na opção 4 entra na classe para o elevador descer um degrau, subtraindo 1 do valor atual.
+    </p>
 </div>
